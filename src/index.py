@@ -5,7 +5,7 @@ from datetime import datetime
 
 import speech_recognition as sr
 
-from src.whisper import recognize_whisper_api
+from libs.whisper import recognize_whisper_api
 
 
 def main():
