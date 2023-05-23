@@ -4,7 +4,7 @@
 
 - [COEIROINK](https://coeiroink.com/download) を起動
 - $ export OPENAI_API_KEY=
-- $ synthesis_voice
+- $ cd synthesis_voice/src
 - $ npx tsc
-- $ node dist/index.js
-- $ python -m src.index
+- $ node ../dist/index.js
+- $ python -m index
